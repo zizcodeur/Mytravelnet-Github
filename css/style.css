@@ -1,0 +1,147 @@
+/*Partie Generale*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+.bgsite{
+    background-color: gainsboro;
+}
+
+
+
+/*Partie Header*/
+.heading{
+    text-align: center;
+    color:#000;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+    
+}
+
+.bg{
+    background-color: rgba(5, 127, 248, 0.728);
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+@media(max-width:767px){
+    .ul-bg{
+        background-color: rgb(26, 44, 208);
+    }
+
+}
+nav .nav-item a:hover{
+    background-color:rgb(26, 44, 208) !important ;
+
+}
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+
+
+
+/*Responsive*/
+@media only screen and (min-width:321px) and (max-width:991px){
+    .carousel-caption{
+        bottom: 300px;
+    }
+    .carousel-caption p {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+
+    }
+}
+
+/*Partie Section*/
+/*Accueil*/
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: white;
+}
+.carousel-caption p {
+    width: auto;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: white;
+
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+
+}
+.coulbtn{
+    color: white;
+}
+
